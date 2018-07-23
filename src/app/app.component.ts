@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPage } from '../pages/feed/feed';
+import { FormularioPage } from '../pages/formulario/formulario';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class MyApp {
 
   // make HelloIonicPage the root (or first) page
   rootPage: any = HelloIonicPage;
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{ title: string, component: any }>;
 
   constructor(
     private platform: Platform,
@@ -30,9 +31,10 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Hello Ionic', component: HelloIonicPage },
-      { title: 'My First List', component: ListPage },
-      { title: 'Cards', component: FeedPage}
+      { title: 'Initial Page', component: HelloIonicPage },
+      { title: 'List', component: ListPage },
+      { title: 'Cards', component: FeedPage },
+      { title: 'Input', component: FormularioPage }
     ];
   }
 

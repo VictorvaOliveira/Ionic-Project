@@ -10,6 +10,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPageModule } from '../pages/feed/feed.module';
+import { FormularioPageModule } from '../pages/formulario/formulario.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FeedPageModule } from '../pages/feed/feed.module';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     FeedPageModule,
+    FormularioPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
