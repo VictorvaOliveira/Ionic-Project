@@ -9,6 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPage } from '../pages/feed/feed';
 import { FormularioPage } from '../pages/formulario/formulario';
+import { IntroPage } from '../pages/intro/intro';
 
 
 @Component({
@@ -34,7 +35,8 @@ export class MyApp {
       { title: 'Initial Page', component: HelloIonicPage },
       { title: 'List', component: ListPage },
       { title: 'Cards', component: FeedPage },
-      { title: 'Input', component: FormularioPage }
+      { title: 'Input', component: FormularioPage },
+      { title: 'Slide', component: IntroPage}
     ];
   }
 
