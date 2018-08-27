@@ -19,7 +19,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage: any = HelloIonicPage;
+  rootPage: any = IntroPage;
   pages: Array<{ title: string, component: any }>;
 
   constructor(

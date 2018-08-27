@@ -25686,3 +25686,7 @@ page-feed h2.feed_title {
 page-feed p.feed_date {
   color: green;
 }
+
+page-intro .slide_image img {
+  width: 250px;
+}
